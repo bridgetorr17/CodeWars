@@ -16,3 +16,7 @@ function firstDup (s) {
     
     return charFound; 
   }
+  
+console.log(firstDup('this is'), 'should be i')
+console.log(firstDup('levin question'), 'should be e')
+console.log(firstDup('no saw'), 'should be none')
