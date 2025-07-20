@@ -14,8 +14,6 @@ function removeExclamation(str) {
     })
 
     return arrRet.join(' ');
-
-    
 }
 
 console.log(removeExclamation('Exclamat!on!! !!E!'), 'should return: Exclamat!on !!E')
